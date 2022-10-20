@@ -21,6 +21,7 @@ int (*get_print(char c))(va_list)
 		{'%', print_percent},
 	};
 	int i = 0;
+
 	while (handlers[i].c)
 	{
 		if (handlers[i].c == c)
