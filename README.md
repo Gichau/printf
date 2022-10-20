@@ -1,1 +1,1 @@
-# printf
+The function _printf is a variadic function that produces a string according to a format and prints it to the standard output, much like the C standard library function "printf". It can receive a lot of variables as arguments according the positions with flags in the formatter.
